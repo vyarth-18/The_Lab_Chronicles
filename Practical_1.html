@@ -1,206 +1,58 @@
-<!--  WATER ALKALINITY USING PH RODS STUFF-->
-
+<!--  Practical 1 B-->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Determining Alkalinity of Water Using Acid Titration</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            text-align: center;
-            color: #2c3e50;
-        }
-        h2 {
-            color: #2980b9;
-        }
-        p {
-            line-height: 1.6;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        .procedure-step {
-            margin: 10px 0;
-        }
-        .result {
-            background-color: #eaf2f8;
-            padding: 15px;
-            border-left: 4px solid #2980b9;
-            margin-top: 20px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin: 20px 0;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-        }
-        figcaption {
-            font-style: italic;
-            color: #666;
-            text-align: center;
-            margin-top: -10px;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Determining Alkalinity of Water Using Acid Titration</title>
+        <style>
+            body {font-family: Comic Sans MS, sans-serif;
+                font-family: Arial, sans-serif;
+                background-color: #543A14;
+                margin: 0;
+                padding: 2cm;
+            }
+            .container {font-family: Comic Sans MS, sans-serif;
+                max-width: 800px;
+                margin: auto;
+                background: #FFF0DC;
+                padding: 3cm;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            h1 {font-family: Comic Sans MS, sans-serif;
+                text-align: center;
+                color: #543A14;
+            }
+            h2 {
+                color: #f6b45e;font-family: Comic Sans MS, sans-serif; font-size: x-large;
+            }
+            h3 {
+                color: #543A14; font-size: x-large;
+            }
+            h4 {
+                color: #f6b45e; font-size: x-large;
+            }
+            p {
+                line-height: 1.6; color: #131010;font-size: larger;
+            }
+            ul {
+                margin-left: 20px;font-size: large;
+            }
+            .procedure-step {
+                margin: 10px 0;
+            }
+        </style>
+    </head>
 <body>
-
-<div class="container">
-    <h1>Experiment: Measuring Alkalinity of Water Using Acid</h1>
-
-    <section>
-        <h2>Introduction</h2>
-        <p>Alkalinity is a measure of the water's capacity to neutralize acids, primarily due to the presence of bicarbonates, carbonates, and hydroxides. This experiment uses an acid titration method to determine the alkalinity of a water sample.</p>
-        <figure>
-            <img src="https://cdn.pixabay.com/photo/2017/05/23/22/36/laboratory-2335470_960_720.jpg" alt="Laboratory setup for titration">
-            <figcaption>Basic laboratory setup for titration. Source: Pixabay</figcaption>
-        </figure>
-    </section>
-
-    <section>
-        <h2>Materials Needed</h2>
-        <ul>
-            <li>Water sample (tap water, river water, etc.)</li>
-            <li>Burette or pipette</li>
-            <li>0.02 N sulfuric acid solution</li>
-            <li>Phenolphthalein indicator</li>
-            <li>Methyl orange indicator</li>
-            <li>Beakers (100 ml)</li>
-            <li>Stirring rod</li>
-            <li>pH meter or pH strips (optional)</li>
-        </ul>
-        <figure>
-            <img src="https://cdn.pixabay.com/photo/2017/07/18/19/39/laboratory-2511090_960_720.jpg" alt="Titration tools">
-            <figcaption>Tools required for titration, including burettes and beakers. Source: Pixabay</figcaption>
-        </figure>
-    </section>
-
-    <section>
-        <h2>Procedure</h2>
-        <div class="procedure-step">
-            <strong>Step 1:</strong> Take a 100 ml water sample in a clean beaker.
-        </div>
-        <div class="procedure-step">
-            <strong>Step 2:</strong> Add 3-4 drops of phenolphthalein indicator to the sample. If the solution turns pink, it indicates the presence of hydroxides and carbonates.
-        </div>
-        <div class="procedure-step">
-            <strong>Step 3:</strong> Using a burette, add 0.02 N sulfuric acid drop by drop while gently stirring the solution.
-        </div>
-        <figure>
-            <img src="https://cdn.pixabay.com/photo/2016/03/27/20/55/acid-1286221_960_720.jpg" alt="Titration in progress">
-            <figcaption>Adding acid drop by drop during titration. Source: Pixabay</figcaption>
-        </figure>
-        <div class="procedure-step">
-            <strong>Step 4:</strong> Continue adding the acid until the pink color disappears. Note the volume of acid used (this represents the phenolphthalein alkalinity).
-        </div>
-        <div class="procedure-step">
-            <strong>Step 5:</strong> Add 3-4 drops of methyl orange indicator to the same sample. The solution should turn yellow.
-        </div>
-        <div class="procedure-step">
-            <strong>Step 6:</strong> Continue titrating with sulfuric acid until the solution changes to a red or orange color. Record the total volume of acid used (this represents the total alkalinity).
-        </div>
-    </section>
-
-    <section class="result">
-        <h2>Calculating Alkalinity</h2>
-        <p>The alkalinity of the water sample can be calculated using the formula:</p>
-        <p><strong>Alkalinity (mg/L as CaCO<sub>3</sub>) = (Volume of acid used in ml) × (Normality of acid) × 50,000 / (Volume of water sample in ml)</strong></p>
-        <figure>
-            <img src="https://cdn.pixabay.com/photo/2016/10/01/17/02/calculator-1719946_960_720.jpg" alt="Calculating alkalinity using formula">
-            <figcaption>Performing alkalinity calculations using the formula. Source: Pixabay</figcaption>
-        </figure>
-        <p>This result indicates the water's ability to neutralize acids, which is important for maintaining pH balance in aquatic environments and water treatment processes.</p>
-    </section>
-
-    <section>
-        <h2>Conclusion</h2>
-        <p>The titration method using a strong acid (such as sulfuric acid) allows us to determine the alkalinity of a water sample. Higher alkalinity indicates a greater capacity of the water to buffer pH changes, which is critical for ecosystems and industrial applications.</p>
-    </section>
-</div>
-
-</body>
-</html>
-
-
-
-<!-- EDTA -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Determination of Water Hardness by EDTA Method</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 20px;
-        }
-        h1, h2 {
-            color: #0066cc;
-        }
-        .content {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        ol, ul {
-            margin-left: 20px;
-        }
-        .formula {
-            background-color: #e0f7fa;
-            padding: 10px;
-            border-radius: 8px;
-            margin: 10px 0;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin: 20px 0;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-        }
-        figcaption {
-            font-style: italic;
-            color: #666;
-            text-align: center;
-            margin-top: -10px;
-            margin-bottom: 20px;
-        }
-    </style>
-</head>
-<body>
-
-<div class="content">
-    <h1>Determining Hardness of Water by EDTA Method</h1>
+    <div class="container">
+    <h1>
+        ~ Practical 1 Part A ~<br><br>Determining Hardness of Water by EDTA Method</h1>
 
     <h2>Introduction</h2>
-    <p>Water hardness is primarily caused by the presence of calcium (Ca<sup>2+</sup>) and magnesium (Mg<sup>2+</sup>) ions. The EDTA (Ethylenediaminetetraacetic acid) titration method is a common and effective way to determine the hardness of water. This method involves using EDTA as a complexing agent that binds with calcium and magnesium ions.</p>
-    
-    <figure>
-        <img src="https://cdn.pixabay.com/photo/2017/02/01/18/30/laboratory-2030249_960_720.jpg" alt="Laboratory glassware setup">
-        <figcaption>Standard laboratory setup for titration. Source: Pixabay</figcaption>
-    </figure>
-
+    <p>Water hardness is primarily caused by the presence of calcium (Ca<sup>2+</sup>) and magnesium (Mg<sup>2+</sup>) ions. The EDTA (Ethylenediaminetetraacetic acid) 
+        titration method is a common and effective way to determine the hardness of water. This method involves using EDTA as a complexing agent that binds with calcium
+         and magnesium ions.</p>
     <h2>Materials Required</h2>
     <ul>
         <li>Water sample</li>
@@ -210,12 +62,6 @@
         <li>Burette, pipette, and conical flask</li>
         <li>Distilled water</li>
     </ul>
-
-    <figure>
-        <img src="https://cdn.pixabay.com/photo/2016/11/19/13/09/lab-1836980_960_720.jpg" alt="Titration tools like burette, conical flask">
-        <figcaption>Burette and conical flask used in titration. Source: Pixabay</figcaption>
-    </figure>
-
     <h2>Procedure</h2>
     <ol>
         <li>Fill the burette with the standard EDTA solution.</li>
@@ -224,32 +70,19 @@
         <li>Add a few drops of Eriochrome Black T indicator. The solution will turn wine-red if hardness ions are present.</li>
         <li>Titrate the solution with EDTA until the color changes from wine-red to blue, indicating the endpoint.</li>
     </ol>
-
-    <figure>
-        <img src="https://cdn.pixabay.com/photo/2017/03/27/14/56/laboratory-2170439_960_720.jpg" alt="Color change during titration">
-        <figcaption>Observation of color change during titration. Source: Pixabay</figcaption>
-    </figure>
-
     <h2>Calculation</h2>
     <p>The hardness of water (in ppm) can be calculated using the formula:</p>
     <div class="formula">
         <strong>Hardness (ppm) = (Volume of EDTA used) × (Molarity of EDTA) × (1000) / (Volume of water sample in mL)</strong>
     </div>
-
-    <figure>
-        <img src="https://cdn.pixabay.com/photo/2016/10/01/17/02/calculator-1719946_960_720.jpg" alt="Calculation using formula">
-        <figcaption>Using the formula to calculate water hardness. Source: Pixabay</figcaption>
-    </figure>
-
     <h2>Example Calculation</h2>
     <p>If 15 mL of 0.01 M EDTA solution was required to reach the endpoint for a 50 mL water sample:</p>
     <div class="formula">
         Hardness (ppm) = (15 mL) × (0.01 M) × (1000) / (50 mL) = 300 ppm
     </div>
-
     <h2>Conclusion</h2>
-    <p>This method provides a reliable measure of the total hardness of water, which includes both calcium and magnesium ions. Regular testing of water hardness is important for industries and households to ensure water quality.</p>
+    <p>This method provides a reliable measure of the total hardness of water, which includes both calcium and magnesium ions. Regular testing of water hardness is 
+        important for industries and households to ensure water quality.</p>
 </div>
-
 </body>
 </html>
