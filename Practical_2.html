@@ -1,94 +1,310 @@
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-  
-<meta charset="UTF-8">
-   
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-<title>Document</title>
-   
-<linK rel="stylesheet" href="style.css"></linl>
-
-</head>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Determining Alkalinity of Water Using Acid Titration</title>
+        <style>
+            body {font-family: Comic Sans MS, sans-serif;
+                font-family: Arial, sans-serif;
+                background-color: #4335A7;
+                margin: 0;
+                padding: 2cm;
+            }
+            .container {font-family: Comic Sans MS, sans-serif;
+                max-width: 800px;
+                margin: auto;
+                background: #e3f4fc;
+                padding: 5cm;
+                border-radius: 10px;
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            }
+            h1 {font-family: Comic Sans MS, sans-serif;
+                text-align: center;
+                color: #FF7F3E;
+            }
+            h2 {
+                color: #4335A7;font-family: Comic Sans MS, sans-serif; font-size: x-large;
+            }
+            h3 {
+                color: #FF7F3E; font-size: x-large;
+            }
+            h4 {
+                color: #4335A7; font-size: x-large;
+            }
+            p {
+                line-height: 1.6; color: #4335A7;font-size: larger;
+            }
+            ul {
+                margin-left: 20px;font-size: large;
+            }
+            .procedure-step {
+                margin: 10px 0;
+            }
+            .result {
+                background-color: #eaf2f8;
+                padding: 15px;
+                border-left: 4px solid #2980b9;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
 <body>
-  
-<div id="header">
-   
-<h1>Experiment no.2</h1>
-   
+    <div class="container">
+<h1>
+    ~ Practical 2 ~<br><br>
+    TITRATION OF STRONG ACID VS. STRONG BASE USING A CONDUCTIVITY METER AND TO DETERMINE THE STRENGTH OF THE ACID
+</h1>
+<h2 style="font-family: Comic Sans MS, sans-serif;">Prior Concepts:</h2>
+<p> Conductance, resistance, variation in conductance w.r.t concentration. Weak and strong acids-bases.</p>
+<h2 style="font-family: Comic Sans MS, sans-serif;"> New Concepts:</h2>
+<p> Proposition 1: The principle of conductometric titration is based on the fact that during titration, 
+one of the ion is replaced by the other and invariably these two ions differ in the
+ ionic conductance with the result that conductivity of the solution varies during the titration.</p>
+ <p> Proposition 2: The equivalence point is located graphically by plotting change in conductance as 
+ function of the volume of titrant is added.</p>
+ <h2 style="font-family: Comic Sans MS, sans-serif;"> Information Input:</h2>
+ <p>1. When the mixture of CH3COOH and HCL is titrated against NaOH,HCL being the strong acid will neutralise first followed by CH3COOH.</p>
+ <p>2. Neutralisation of CH3COOH(weak acid) will commence only after the complete neutralisation of HCL.</p>
+ <p>3. The Conductance titration curve is marked by two breaks, the first one corresponds to
+ neutralisation of HCL and second one to that of CH3COOH.</p>
+ <p>4. Let V1 and V2 mL be the volume of alkali corresponding to first and second breaks respectively.</p>
+ <p>        V1 mL of NaOH=HCL , V2 mL of NaOH=HCL+CH3COOH </p>
+ <p>        Hence,<V2-V1>mL of NaOH=CH3COOH </P>
+ <h2 style="font-family: Comic Sans MS, sans-serif;"> LEARNING OBJECTIVES:</h2>
+ <h3 style="font-family: Comic Sans MS, sans-serif;"> Intellectual Skills:</h3>
+ <p> 1)To understand the concepts of conductance.</p>
+ <p> 2)To understand the influence of the nature of ions, charges on ions and ion mobility on the course of titration.
+ <p> 3)To deduce the equivalent point from graph</p>
+ <p> 4)To understand the importance of conductometric titration.</p>
+ <h3 style="font-family: Comic Sans MS, sans-serif;">Motor Skills:</h3>
+ <p>1)An ability to handle glassware and electrodes.</p>
+ <p>2)An ability to prepare acid, base solution of exact normality.</p>
+ <p>3)An ability to standardise conductometer prior use</p>
+ <p>4)An ability to use prepared solutions to perform titration monitored by a conductometer.</p>
+ <p>5)An ability to collect data, its graphical representation and interpretation.</p>
+ <h3 style="font-family: Comic Sans MS, sans-serif;">Apparatus:</h3>
+ <table style="font-family: Comic Sans MS, sans-serif;">
+    <tr>
+        <td>- Conductivity meter</td>
+        <td>- Burette</td>
+    </tr>
+    <tr>
+        <td>- Pipette</td>
+        <td>- Beakers</td>
+    </tr>
+	<tr>
+	     <td>- Electrodes</td>
+		 <td>- Microburette</td>
+    </tr>
+</table>
+<h3 style="font-family: Comic Sans MS, sans-serif;">Chemicals:</h3>
+<table style="font-family: Comic Sans, sans-serif;">
+    <tr> 
+	    <td>-0.01 N HCL</td>
+		<td>-0.01 N CH3COOH</td>
+	</tr>
+	<tr>
+	    <td>-0.1 N NaOH</td>
+    </tr>
+</table>
+<h3 style="font-family: Comic Sans MS, sans-serif;">Stepwise procedure:</h3>
+<p>1. Clean all the apparatus with distilled water.</p>
+<p>2. Fill the burette with 0.01 N NaOH solution. Place the conductivity cell 
+in distilled water and adjust the display to pH with calibration knob.</p>
+<p>3. Take a beaker and add 30 mL of HCL.</p>
+<p>4. Titrate the mixture against 0.1 N NaOH solution.</p>
+<p>5. Now measure initial conductance of solution.</p>
+<p>6. Then add 0.1 mL of NaOH every time into the solution and stir well each time</p>
+<p>7. Note down conductance values till the conductance values decreases and increases considerably.</p>
+<p>8. Plot a graph of conductance vs. mL of NaOH added.
+<h2 style="font-family: Comic Sans MS, sans-serif;">OBSERVATION TABLE:</h2>
+<table>
+	<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+</style>
+	<tr>
+            <td>SR.No</td>
+            <td>VOLUME OF NAOH ADDED</td>
+            <td>CONDUCTANCE</td>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	    <td>4.</td>
+            <td></td>
+            <td></td>
+        </tr>  
+	    <td>5.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>6.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>7.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>8.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>9.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>10.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>11.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>12.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>13.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>14.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>15.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>16.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>17.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>18.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>19.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>20.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	</tr>  
+	    <td>21.</td>
+            <td></td>
+            <td></td>
+        </tr>
+	<tr>
+            <td>22.</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+<h3 style="font-family: Comic Sans MS, sans-serif;">Result:</h3>
+<table>
+	<tr>
+	<td>1.</td>
+	<td>Equivalence point of titration</td>
+	<td>___mL</td>
+	</tr>
+	<tr>
+		<td>2.</td>
+		<td>Strength of acid</td>
+		<td>__N</td>
+	</tr>
+</table>
+<h3 style="font-family: Comic Sans MS, sans-serif;">Viva Voice:(General Knowledge on the experiement)</h3>
+<h4 style="font-family:Comic Sans MS, sans-serif;">Q1)Define conductance, specific conductance and equivalence conduction.</h4>
+<p>Answer:1. Conductance (G):</p>
+<p>  Definition: Conductance is the ability of a material to allow the flow of electric current. It is the reciprocal of resistance.</p>
+<p>  Formula: G=1/R</p>
+<p>  where,G is conductance and R is resistance. </p>
+<p>  Unit: Siemens (S), which is equivalent to Ω ^−1(inverse ohm)</p>
+<p>  Dependence: It depends on the material's properties, geometry (length and cross-sectional area), and the temperature of the conductor.</p>
+<p>2)Specific Conductance(κ):
+Definition: Also known as conductivity, specific conductance is the measure of a material's ability to conduct electricity, considering its intrinsic properties, without reference to its size or shape.</p>
+<p>Formula-k=1/ρ</p>
+<p>where ,𝜅 is specific conductance and 𝜌 is resistivity.</p>
+<p>Unit: Siemens per meter (S·m^-1)</p>
+<p>Dependence: It is a characteristic of the material and varies with temperature.</p>
+<p>3. Equivalent Conductance(Λeq):</p>	
+<p>Definition: Equivalent conductance is the conductance of a solution containing one gram equivalent of an electrolyte, when placed between electrodes that are one unit length apart and have a unit cross-sectional area.
+</p>
+<p>Formula:Λeq=κ*1000/C</p>
+<p>where, Λeq is equivalent conductance, 𝜅 is specific conductance, and 𝐶 is the concentration of the electrolyte in gram equivalents per liter.</p>
+<p>Unit: Siemens square centimeter per equivalent</p>
+<p>Dependence: It depends on the concentration of the electrolyte and the temperature of the solution. It generally increases as the concentration decreases due to reduced ionic interactions.</p>
+<h4 style="font-family:Comic Sans MS, sans-serif;">Q2) Explain the nature of graph of conductometric titration of mixture of acids Vs strong base in terms of mobility of ions.</h4>
+<p>Answer:The graph starts with high conduction,due to presence of H+ ions decrease and Na+ ions increase which have comparatively less mobility.
+Hence the slope is observed after equivalent point, graph was increased.
+<h4 style="font-family:Comic Sans MS, sans-serif;">Q3) 	 Discuss the construction of electrode used for the conductometric titration.</h4>
+<p>Answer:Electrodes for conductometric titration typically consist of a conductivity cell made up of materials like platinum, stainless stell or graphite
+sheets kept at a certain distance for accurate conductivity calculations.</p>
+<h4 style="font-family:Comic Sans MS, sans-serif;">Q4)What is the unit of conductance. Specific conductance, Equivalent conductance, cell constant?</h4>
+<p>Answer:Unit of conductance: Siemens(S) and 1S=1ohm^-1</p>
+<p> Unit of Specific Conductance:siemens per meter(S m^-1)</p>
+<p>Unit of Equivalent Conductance:Siemens meter squared per equivalent(S m^2 eq^-1)</p>
+<p>Unit of Cell Constant:per meter (m^-1),For practical laboratory use, it is often expressed in cm^-1</p>
+<h4 style="font-family:Comic Sans MS, sans-serif;">Q5)Give any two importance of conductometric titrations.</h4>
+<p>Answer:1)No Need for Indicators:In conductometric titrations, the endpoint of the titration is determined by measuring changes in the electrical conductivity
+ of the solution, not by visual indicators. This is especially useful when the reaction
+ does not produce a suitable color change or when it is difficult to select a proper indicator. For instance, in acid-base titrations involving weak
+ acids or bases, a suitable indicator may not exist, but conductometric titrations can still provide accurate results.</p>
+ <p>2) Applicable to Turbid or Colored Solutions:Conductometric titrations can be performed on turbid or colored solutions where conventional visual methods, like pH indicators, may be ineffective. The conductivity measurement is not 
+ affected by the presence of color or opacity in the solution, allowing accurate titration results in a wide range of chemical systems, such as precipitation and
+ redox reactions, where the solution's appearance may change in complex ways.</p>
+ <h4 style="font-family:Comic Sans MS, sans-serif;">Q6)What is effect of dilution on equivalent conductance?</h4>
+ <p>Answer:1. Increased Ion Mobility-As the solution is diluted, the concentration of ions decreases, reducing interionic interactions (e.g., ion-ion attraction or shielding effects). 
+ This allows the ions to move more freely under the influence of an electric field,
+ thereby increasing their mobility and, consequently, the equivalent conductance.</p>
+ <p>2. Complete Ionization of Weak Electrolytes-For weak electrolytes, such as acetic acid, dilution promotes further ionization according to Le Chatelier's Principle. At higher concentrations, weak electrolytes are only partially ionized, but as the solution is diluted,
+ the degree of ionization increases, leading to more charge carriers and a higher</p>
 </div>
-  
-<p><b>1.0 Title:</b>: To determine dissociation constant of weak acid using pH meter</p>
-    
-<p><b>2.0 Prior Concepts</b>:  Moles, Molarity, Normality, concentration of H and OH, pH, POH, pKa, pKb. Concept of strong and weak acids and bases.</p>
-   
-<p><b>3.0 New Concept: Proposition 1:</b></p>
-  
-<b>pH metric Titration </b>:- Study of pH-metric titration of Stong acid against strong base using pH-meter without use of any indicators.
-<p><b>Concept structure:</b></p>
-  
-
-<p><b>Proposition 2:</b> Nature of graph depends on the fact that
-<p> i)The pH increases slowly at first because the pH scale is logarithmic, which means that a pH of 1 will have 10 times the hydronium ion concentration than a pH of 2. Thus, as the hydronium ion is initally removed, it takes a lot of base to change its concentration by a factor of 10.</p>
- 
-<p> ii)At end point complete neutralization of acid, pH suddenly increases because near the equivalence point, a change of a factor of 10 occurs very quickly, which is why the graph is extremely steep at this point.</p>
- 
-<p> iii)After end point, again mild increase in pH because as the hydronium ion concentration becomes very low, it will again take a lot of base to increase the hydroxide ion concentration by 10 fold to change the pH significantly.</p>
-<p><b>Concept structure:</b></p>
-  
-<p><b>4.0 Learning Objective:</b></p>
- 
-<p><b>4.1 Intellectual skills:</b> </p>
- 
-<p>a) To understand the pH-metry an electro analytical technique to study pH-metric titration.</p>
-<p> b) To understand theory behind titration between strong base Vs strong acid .</p>
-<p>c) To understand concept of determining equivalence point by using pH-meter and to calculate strength of unknown acid.</p>
-<p><b>4.2 Motor skills:</b> </p>
- 
-<p>a) Ability to standardize pH-meter using standard buffer solution. </p>
- 
-<p>b) Ability to handle glass electrode.</p>
- 
-<p>c) Ability to perform titration using burette.</p>
- 
-<p>d) Ability to collect data from instrument, draw graph, interpret and to determine result.</p>
- 
-<p><b>5.0 Information Input :</b> </p>
-
-<p>1) pH value indicates the strength of H conc. in solution in g ion/lit.</p>
- 
-<p>2) Strong acid and strong base completely ionizes in water. </p>
- 
-<p>3) Glass electrode is used in pH meter to determine precise and accurate pH value. </p>
- 
-<p>4) pH meter should be calibrated using buffer solution before measurement and glass electrode has to be pre-activated. </p>
- 
-<p>5) Titration should be carried out by careful addition of alkali to the acid.</p>
-  
-<p>6) The graph is plotted pH Vs volume of base and the nature is S-shaped.</p>
- 
-<p><b>6.0Apparatus-</b> pH meter, pH meter electrode, burette, pipette, beaker etc.</p>
-<p><b>6.1 Chemicals-</b>Sodium hydroxide, HCI / H2SO4, buffer solution (for caliberation of pH-meter) and Indicator.
-<p><b>7.0 Procedure-</b> Calibrate the pH meter with the solution of the known pH. Wash the electrode with distilled water. Take 30 ml of strong acid of unknown strength (concentration) in 100ml beaker and dip the electrode in it. Measure the pH of the solution. Then add standard alkali in appropriate amount from the burette and measure the pH after each addition. Take several readings nell above the neutralization point. Plot pH Vs. volume of alkali added. From the graph determine neutralization point.</p>
-<p><b>11.0 Result-</b></p>
-<p><b>Viva voce:</b></p>
-<p>1. What do you mean by pH pOH and weak acid?</p>
-<p>2. Give the name of the scientist who discovered pH. </p>
-<p>3. Which solution is added in glass electrode ? </p>
-<p>4. Why the nature of HCI Vs NaOH pH metric titration graph? </p>
-<p>5. Why the activation of electrode is need prior to use and what care must be taken while using it. </p>
-<p>6. List applications of pH metry. </p>
-<p>7. How glass electrode can be represented? </p>
-<p>8. What are advantages of glass electrode? </p>
-<p>9. Why there is sharp change in PH near end point? </p>
-<p>10.How PH metric method is more superior than conventional methods of titrations?</p>
-<script src="js.js"></script>
-
 </body>
-
 </html>
-
-
-
